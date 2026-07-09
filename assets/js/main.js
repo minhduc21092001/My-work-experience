@@ -38,7 +38,7 @@ const i18n = {
         'lg.title': 'LG Kitchen Appliances UI',
         'lg.company': 'LG Electronics (LGEDV)',
         'lg.role': 'Research Engineer',
-        'lg.desc': 'Embedded UI development for kitchen appliances using Qt and LVGL on Linux.'
+        'lg.desc': 'Embedded UI development for kitchen appliances using Qt and LVGL on Linux.',
         'detail.back': '← Back to Portfolio',
         'detail.overview': 'Project Overview',
         'detail.responsibilities': 'My Responsibilities',
@@ -89,7 +89,7 @@ const i18n = {
         'lg.title': 'UI Thiết Bị Nhà Bếp LG',
         'lg.company': 'LG Electronics (LGEDV)',
         'lg.role': 'Kỹ Sư Nghiên Cứu',
-        'lg.desc': 'Phát triển UI nhúng cho thiết bị nhà bếp dùng Qt và LVGL trên Linux.'
+        'lg.desc': 'Phát triển UI nhúng cho thiết bị nhà bếp dùng Qt và LVGL trên Linux.',
         'detail.back': '← Quay lại Portfolio',
         'detail.overview': 'Tổng Quan Dự Án',
         'detail.responsibilities': 'Trách Nhiệm Của Tôi',
@@ -125,9 +125,6 @@ function setLanguage(lang) {
     if (langLabel) {
         langLabel.textContent = lang === 'en' ? 'VI' : 'EN';
     }
-
-    // Update theme toggle icon based on lang (not needed but placeholder)
-}
 
     // Update HTML lang attribute
     document.documentElement.lang = lang;
