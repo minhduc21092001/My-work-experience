@@ -18,8 +18,8 @@ This repository showcases my hands-on experience developing **embedded software*
 
 ## Technologies
 
-`C` · `C++ (OOP, STL)` · `Python` · `Qt` · `LVGL` · `FreeRTOS` · `Linux` · `UART` · `SPI` · `I²C` · `GPIO` · `PWM`
-`GoogleTest` · `CMake` · `VS Code` · `Visual Studio` · `Git / GitLab` · `Jira`
+`C` · `C/C++` · `Python` · `Qt` · `LVGL` · `FreeRTOS` · `Linux` · `UART` · `SPI`
+`GoogleTest` · `Git / GitLab` · `Jira`
 
 ## Live Site
 
