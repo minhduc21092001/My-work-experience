@@ -7,7 +7,7 @@ const i18n = {
         'nav.contact': 'Contact',
         'hero.badge': 'Embedded Software Engineer',
         'hero.greeting': 'Hi, I\'m',
-        'hero.subtitle': 'I build the software that brings hardware to life — from industrial printing systems to kitchen appliances.',
+        'hero.subtitle': 'Embedded software engineer with experience in firmware development, UI frameworks (Qt, LVGL), and Linux-based systems for industrial and consumer products.',
         'hero.viewWork': 'View My Work',
         'hero.contactMe': 'Contact Me',
         'hero.statCompanies': 'Companies',
@@ -58,7 +58,7 @@ const i18n = {
         'nav.contact': 'Liên Hệ',
         'hero.badge': 'Kỹ Sư Phần Mềm Nhúng',
         'hero.greeting': 'Xin chào, tôi là',
-        'hero.subtitle': 'Tôi xây dựng phần mềm để điều khiển phần cứng — từ hệ thống máy in công nghiệp đến thiết bị nhà bếp thông minh.',
+        'hero.subtitle': 'Kỹ sư phần mềm nhúng với kinh nghiệm phát triển firmware, UI framework (Qt, LVGL) và hệ thống Linux cho sản phẩm công nghiệp và tiêu dùng.',
         'hero.viewWork': 'Xem Dự Án',
         'hero.contactMe': 'Liên Hệ',
         'hero.statCompanies': 'Công Ty',
@@ -131,6 +131,12 @@ function setLanguage(lang) {
 
     // Update placeholder images if on detail pages
     updateDetailPlaceholders(lang);
+
+    // Toggle language-specific content blocks
+    document.querySelectorAll('.lang-content').forEach(el => {
+        const contentLang = el.getAttribute('lang');
+        el.style.display = contentLang === lang ? 'block' : 'none';
+    });
 }
 
 function toggleLanguage() {

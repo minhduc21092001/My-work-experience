@@ -63,73 +63,111 @@
             <div class="detail-grid">
                 <!-- Main Content -->
                 <div class="detail-content">
-                    <h2 data-i18n="detail.overview">Project Overview</h2>
-                    <p>
-                        As a <strong>Research Engineer</strong> at <strong>LGEDV (LG Electronics Development Vietnam)</strong>,
-                        I develop embedded user interfaces for LG's kitchen appliance lineup, including wall ovens and coffee machines.
-                        The work focuses on creating intuitive, responsive, and visually polished UI that meets LG's global product standards.
-                    </p>
-                    <p>
-                        The UI runs on Linux-based embedded platforms and communicates with the main control board via <strong>UART</strong>
-                        and with the Wi-Fi module via <strong>SPI</strong>, handling bidirectional data exchange and command processing
-                        for real-time appliance control and monitoring.
-                    </p>
+                    <!-- English Content -->
+                    <div class="lang-content" lang="en">
+                        <h2>Project Overview</h2>
+                        <p>
+                            As a <strong>Research Engineer</strong> at <strong>LGEDV (LG Electronics Development Vietnam)</strong>,
+                            I develop embedded user interfaces for LG's kitchen appliance lineup, including wall ovens and coffee machines.
+                            The work focuses on creating intuitive, responsive, and visually polished UI that meets LG's global product standards.
+                        </p>
+                        <p>
+                            The UI runs on Linux-based embedded platforms and communicates with the main control board via <strong>UART</strong>
+                            and with the Wi-Fi module via <strong>SPI</strong>, handling bidirectional data exchange and command processing
+                            for real-time appliance control and monitoring.
+                        </p>
 
-                    <div class="highlight-box">
-                        <p><strong>Role:</strong> Research Engineer (Current)</p>
-                        <p><strong>Period:</strong> March 2026 – Present</p>
-                        <p><strong>Team:</strong> Global R&D environment with Korean, Vietnamese, and international engineers</p>
+                        <div class="highlight-box">
+                            <p><strong>Role:</strong> Research Engineer</p>
+                            <p><strong>Period:</strong> March 2026 – Present</p>
+                            <p><strong>Team size:</strong> 4</p>
+                            <p><strong>Team:</strong> Global R&D environment with Korean, Vietnamese, and international engineers</p>
+                        </div>
+
+                        <h2>My Responsibilities</h2>
+                        <ul>
+                            <li><strong>Developed embedded UI using Qt</strong> for wall oven display panels — implementing menu navigation, cooking mode selection, timer/settings management, and real-time status feedback.</li>
+                            <li><strong>Developed embedded UI using LVGL</strong> for coffee machine touchscreen interface, delivering smooth animations and intuitive user interaction on resource-constrained hardware.</li>
+                            <li><strong>Implemented communication interfaces</strong> between the display module and external components — UART with the main control board and SPI with the Wi-Fi module.</li>
+                            <li><strong>Ensured UI responsiveness and smooth animations</strong> aligned with LG's product design standards and user experience guidelines.</li>
+                            <li><strong>Built and tested software</strong> on Linux-based development environments, using cross-compilation toolchains and target hardware validation.</li>
+                            <li><strong>Produced technical documentation</strong> including change lists, design notes, and test cases to support QE and cross-team collaboration.</li>
+                        </ul>
+
+                        <h2>Key Achievements</h2>
+                        <ul>
+                            <li>Delivered <strong>Qt-based UI</strong> for wall oven platforms that met LG's quality and performance standards.</li>
+                            <li>Developed <strong>LVGL-based touch UI</strong> for coffee machine, optimizing graphics and responsiveness for embedded display hardware.</li>
+                            <li>Established <strong>UART/SPI communication drivers</strong> enabling reliable data exchange between display, main board, and Wi-Fi module.</li>
+                            <li>Created comprehensive <strong>test cases and technical documentation</strong> that improved cross-team handoff and QE validation efficiency.</li>
+                        </ul>
+
+                        <h2>Technologies Used</h2>
+                        <div class="skill-items" style="margin-bottom: 24px;">
+                            <span class="skill-tag">C++ (OOP, STL)</span>
+                            <span class="skill-tag">Qt</span>
+                            <span class="skill-tag">LVGL</span>
+                            <span class="skill-tag">Linux</span>
+                            <span class="skill-tag">UART</span>
+                            <span class="skill-tag">SPI</span>
+                            <span class="skill-tag">CMake</span>
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">Git / GitLab</span>
+                            <span class="skill-tag">Jira</span>
+                        </div>
                     </div>
 
-                    <h2 data-i18n="detail.responsibilities">My Responsibilities</h2>
-                    <ul>
-                        <li>
-                            <strong>Developed embedded UI using Qt</strong> for wall oven display panels — implementing
-                            menu navigation, cooking mode selection, timer/settings management, and real-time status feedback.
-                        </li>
-                        <li>
-                            <strong>Developed embedded UI using LVGL</strong> for coffee machine touchscreen interface,
-                            delivering smooth animations and intuitive user interaction on resource-constrained hardware.
-                        </li>
-                        <li>
-                            <strong>Implemented communication interfaces</strong> between the display module and external
-                            components — UART with the main control board and SPI with the Wi-Fi module — handling
-                            data exchange and command processing.
-                        </li>
-                        <li>
-                            <strong>Ensured UI responsiveness and smooth animations</strong> aligned with LG's product
-                            design standards and user experience guidelines.
-                        </li>
-                        <li>
-                            <strong>Built and tested software</strong> on Linux-based development environments, using
-                            cross-compilation toolchains and target hardware validation.
-                        </li>
-                        <li>
-                            <strong>Produced technical documentation</strong> including change lists, design notes, and
-                            test cases to support QE and cross-team collaboration.
-                        </li>
-                    </ul>
+                    <!-- Vietnamese Content -->
+                    <div class="lang-content" lang="vi" style="display:none;">
+                        <h2>Tổng Quan Dự Án</h2>
+                        <p>
+                            Là <strong>Kỹ Sư Nghiên Cứu</strong> tại <strong>LGEDV (Trung tâm Nghiên cứu & Phát triển LG Electronics Việt Nam)</strong>,
+                            tôi phát triển giao diện người dùng nhúng cho các thiết bị nhà bếp LG, bao gồm lò nướng và máy pha cà phê.
+                            Công việc tập trung vào tạo ra UI trực quan, phản hồi nhanh và đáp ứng tiêu chuẩn sản phẩm toàn cầu của LG.
+                        </p>
+                        <p>
+                            UI chạy trên nền tảng Linux nhúng, giao tiếp với bo mạch chính qua <strong>UART</strong>
+                            và với module Wi-Fi qua <strong>SPI</strong>, xử lý trao đổi dữ liệu hai chiều và điều khiển thiết bị theo thời gian thực.
+                        </p>
 
-                    <h2 data-i18n="detail.achievements">Key Achievements</h2>
-                    <ul>
-                        <li>Delivered <strong>Qt-based UI</strong> for wall oven platforms that met LG's quality and performance standards.</li>
-                        <li>Developed <strong>LVGL-based touch UI</strong> for coffee machine, optimizing graphics and responsiveness for embedded display hardware.</li>
-                        <li>Established <strong>UART/SPI communication drivers</strong> enabling reliable data exchange between display, main board, and Wi-Fi module.</li>
-                        <li>Created comprehensive <strong>test cases and technical documentation</strong> that improved cross-team handoff and QE validation efficiency.</li>
-                    </ul>
+                        <div class="highlight-box">
+                            <p><strong>Vai trò:</strong> Kỹ Sư Nghiên Cứu</p>
+                            <p><strong>Thời gian:</strong> Tháng 03/2026 – Nay</p>
+                            <p><strong>Quy mô đội:</strong> 4</p>
+                            <p><strong>Đội ngũ:</strong> Môi trường R&D toàn cầu với kỹ sư Hàn Quốc, Việt Nam và quốc tế</p>
+                        </div>
 
-                    <h2 data-i18n="detail.tech">Technologies Used</h2>
-                    <div class="skill-items" style="margin-bottom: 24px;">
-                        <span class="skill-tag">C++ (OOP, STL)</span>
-                        <span class="skill-tag">Qt</span>
-                        <span class="skill-tag">LVGL</span>
-                        <span class="skill-tag">Linux</span>
-                        <span class="skill-tag">UART</span>
-                        <span class="skill-tag">SPI</span>
-                        <span class="skill-tag">CMake</span>
-                        <span class="skill-tag">VS Code</span>
-                        <span class="skill-tag">Git / GitLab</span>
-                        <span class="skill-tag">Jira</span>
+                        <h2>Trách Nhiệm Của Tôi</h2>
+                        <ul>
+                            <li><strong>Phát triển UI nhúng dùng Qt</strong> cho màn hình lò nướng — menu điều hướng, chọn chế độ nấu, quản lý hẹn giờ/cài đặt, phản hồi trạng thái thời gian thực.</li>
+                            <li><strong>Phát triển UI nhúng dùng LVGL</strong> cho màn hình cảm ứng máy pha cà phê, tối ưu hoạt ảnh mượt mà trên phần cứng có tài nguyên hạn chế.</li>
+                            <li><strong>Triển khai giao tiếp</strong> giữa module hiển thị và các thành phần ngoại vi — UART với bo mạch chính, SPI với module Wi-Fi.</li>
+                            <li><strong>Đảm bảo UI phản hồi nhanh và hoạt ảnh mượt</strong> theo tiêu chuẩn thiết kế sản phẩm LG.</li>
+                            <li><strong>Xây dựng và kiểm thử phần mềm</strong> trên môi trường Linux, sử dụng cross-compilation toolchain và kiểm tra trên thiết bị thật.</li>
+                            <li><strong>Tạo tài liệu kỹ thuật</strong> bao gồm change list, design notes và test cases hỗ trợ QE và cộng tác nhóm.</li>
+                        </ul>
+
+                        <h2>Thành Tựu Chính</h2>
+                        <ul>
+                            <li>Bàn giao <strong>UI dùng Qt</strong> cho lò nướng đáp ứng tiêu chuẩn chất lượng và hiệu suất LG.</li>
+                            <li>Phát triển <strong>UI cảm ứng dùng LVGL</strong> cho máy pha cà phê, tối ưu đồ họa cho phần cứng nhúng.</li>
+                            <li>Thiết lập <strong>driver giao tiếp UART/SPI</strong> cho phép trao đổi dữ liệu tin cậy giữa màn hình, bo mạch chính và module Wi-Fi.</li>
+                            <li>Tạo <strong>test cases và tài liệu kỹ thuật</strong> toàn diện, cải thiện hiệu quả bàn giao giữa các nhóm và kiểm duyệt QE.</li>
+                        </ul>
+
+                        <h2>Công Nghệ Sử Dụng</h2>
+                        <div class="skill-items" style="margin-bottom: 24px;">
+                            <span class="skill-tag">C++ (OOP, STL)</span>
+                            <span class="skill-tag">Qt</span>
+                            <span class="skill-tag">LVGL</span>
+                            <span class="skill-tag">Linux</span>
+                            <span class="skill-tag">UART</span>
+                            <span class="skill-tag">SPI</span>
+                            <span class="skill-tag">CMake</span>
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">Git / GitLab</span>
+                            <span class="skill-tag">Jira</span>
+                        </div>
                     </div>
                 </div>
 
