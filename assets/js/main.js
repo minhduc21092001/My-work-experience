@@ -215,7 +215,7 @@ if (langToggle) {
 }
 
 /* ====== Theme Toggle ====== */
-let currentTheme = localStorage.getItem('theme') || 'dark';
+let currentTheme = localStorage.getItem('theme') || 'light';
 
 function setTheme(theme) {
     currentTheme = theme;
