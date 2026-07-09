@@ -7,7 +7,7 @@ const i18n = {
         'nav.contact': 'Contact',
         'hero.badge': 'Embedded Software Engineer',
         'hero.greeting': 'Hi, I\'m',
-        'hero.subtitle': 'Embedded software engineer with experience in firmware development, UI frameworks (Qt, LVGL), and Linux-based systems for industrial and consumer products.',
+        'hero.subtitle': 'Hands-on experience in embedded firmware, UI development (Qt, LVGL), and Linux — from industrial printers to smart kitchen appliances.',
         'hero.viewWork': 'View My Work',
         'hero.contactMe': 'Contact Me',
         'hero.statCompanies': 'Companies',
