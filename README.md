@@ -1,6 +1,6 @@
 # Phung Minh Duc — Embedded Software Engineer Portfolio
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-blue?logo=github)](https://minhduc21092001.github.io/My-work-experience)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-blue?logo=github)](https://minhduc21092001.github.io/My-portfolio)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Embedded%20Software-6c63ff)](#)
 
 > **Embedded Software Engineer** — I build the software that brings hardware to life.
@@ -23,7 +23,7 @@ This repository showcases my hands-on experience developing **embedded software*
 
 ## Live Site
 
-👉 **[View the portfolio website](https://minhduc21092001.github.io/My-work-experience)**
+👉 **[View the portfolio website](https://minhduc21092001.github.io/My-portfolio)**
 
 The site is built as a bilingual (English / Vietnamese) static website and hosted via **GitHub Pages**.
 
@@ -44,10 +44,10 @@ The site is built as a bilingual (English / Vietnamese) static website and hoste
 
 ```bash
 # Clone
-git clone https://github.com/minhduc21092001/My-work-experience.git
+git clone https://github.com/minhduc21092001/My-portfolio.git
 
 # Navigate
-cd My-work-experience
+cd My-portfolio
 
 # Open in browser
 start index.html
