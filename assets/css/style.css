@@ -15,11 +15,28 @@
     --success: #4ade80;
     --warning: #fbbf24;
     --danger: #f87171;
+    --navbar-bg: rgba(10, 10, 15, 0.85);
     --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
     --max-width: 1200px;
     --nav-height: 70px;
     --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme="light"] {
+    --bg-primary: #f8f9fc;
+    --bg-secondary: #eef0f5;
+    --bg-card: #ffffff;
+    --bg-card-hover: #f0f2f8;
+    --text-primary: #1a1a2e;
+    --text-secondary: #555570;
+    --text-muted: #8888a0;
+    --accent: #5a52e0;
+    --accent-hover: #4a42d0;
+    --accent-glow: rgba(90, 82, 224, 0.12);
+    --border: #d0d2e0;
+    --border-hover: #b0b2c5;
+    --navbar-bg: rgba(248, 249, 252, 0.9);
 }
 
 /* ====== Reset ====== */
@@ -54,7 +71,7 @@ img { max-width: 100%; height: auto; display: block; }
     left: 0;
     right: 0;
     height: var(--nav-height);
-    background: rgba(10, 10, 15, 0.85);
+    background: var(--navbar-bg);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-bottom: 1px solid var(--border);
@@ -63,7 +80,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .navbar.scrolled {
-    background: rgba(10, 10, 15, 0.95);
+    background: var(--navbar-bg);
     border-bottom-color: var(--accent);
 }
 
@@ -131,6 +148,29 @@ img { max-width: 100%; height: auto; display: block; }
 .lang-toggle:hover {
     background: var(--accent);
     border-color: var(--accent);
+    box-shadow: 0 0 20px var(--accent-glow);
+}
+
+/* ====== Theme Toggle ====== */
+.theme-toggle {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: all var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-toggle:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
     box-shadow: 0 0 20px var(--accent-glow);
 }
 
@@ -565,6 +605,27 @@ section {
 .contact {
     background: var(--bg-secondary);
     text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+.contact-info p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contact-info p i {
+    color: var(--accent);
+    width: 20px;
 }
 
 .contact-links {

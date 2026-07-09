@@ -5,27 +5,27 @@ const i18n = {
         'nav.projects': 'Projects',
         'nav.skills': 'Skills',
         'nav.contact': 'Contact',
-        'hero.badge': 'Embedded Firmware Engineer',
+        'hero.badge': 'Embedded Software Engineer',
         'hero.greeting': 'Hi, I\'m',
-        'hero.subtitle': 'I build the software that brings hardware to life — from industrial printing systems to smart home appliances.',
+        'hero.subtitle': 'I build the software that brings hardware to life — from industrial printing systems to kitchen appliances.',
         'hero.viewWork': 'View My Work',
         'hero.contactMe': 'Contact Me',
         'hero.statCompanies': 'Companies',
-        'hero.statProducts': 'Products Shipped',
+        'hero.statGPA': 'GPA / 4.0',
         'hero.statYears': 'Years Experience',
         'projects.title': 'Featured Projects',
         'projects.desc': 'Real products I contributed to — from concept to mass production.',
-        'projects.km.short': 'Developed embedded firmware in C for 3 industrial printer models, implementing precision control for paper transport, toner supply, and image formation systems.',
-        'projects.lg.short': 'Developed user interface and board communication firmware for LG wall oven product line, covering single, double, and combi (microwave+oven) models.',
+        'projects.km.short': 'Developed embedded firmware in C for industrial printers, implementing control logic for motors, rollers, clutches, solenoids, and high-voltage outputs.',
+        'projects.lg.short': 'Developed embedded UI for kitchen appliances using Qt (oven) and LVGL (coffee machine), with UART/SPI communication on Linux-based platforms.',
         'projects.viewDetails': 'View Details →',
         'skills.title': 'Technical Skills',
-        'skills.desc': 'Tools and technologies I use to build reliable embedded systems.',
+        'skills.desc': 'C/C++, Embedded Systems, Qt/LVGL, Linux, and more.',
         'skills.lang.title': 'Languages',
-        'skills.fw.title': 'Firmware & RTOS',
-        'skills.tools.title': 'Tools & Debug',
+        'skills.fw.title': 'OS & Middleware',
+        'skills.ui.title': 'UI Frameworks',
+        'skills.tools.title': 'Tools & Platforms',
         'skills.protocols.title': 'Protocols & Interfaces',
         'skills.test.title': 'Testing & Quality',
-        'skills.soft.title': 'Soft Skills',
         'contact.title': 'Get In Touch',
         'contact.desc': 'Interested in my background? Let\'s connect.',
         'footer.name': 'Minh Duc',
@@ -35,10 +35,10 @@ const i18n = {
         'km.company': 'FPT Software',
         'km.role': 'Embedded Firmware Engineer',
         'km.desc': 'Industrial digital printing system with advanced automation features for professional print production.',
-        'lg.title': 'LG Wall Oven Series',
+        'lg.title': 'LG Kitchen Appliances UI',
         'lg.company': 'LG Electronics (LGEDV)',
-        'lg.role': 'Embedded Firmware Engineer',
-        'lg.desc': 'Premium wall oven product line including single, double, and combi (microwave+oven) models.',
+        'lg.role': 'Research Engineer',
+        'lg.desc': 'Embedded UI development for kitchen appliances using Qt and LVGL on Linux.'
         'detail.back': '← Back to Portfolio',
         'detail.overview': 'Project Overview',
         'detail.responsibilities': 'My Responsibilities',
@@ -48,34 +48,35 @@ const i18n = {
         'detail.sidebar.period': 'Period',
         'detail.sidebar.team': 'Team Size',
         'detail.sidebar.status': 'Status',
-        'detail.sidebar.status.shipped': 'Shipped'
+        'detail.sidebar.status.shipped': 'Shipped',
+        'detail.sidebar.status.development': 'In Development'
     },
     vi: {
         'nav.about': 'Giới Thiệu',
         'nav.projects': 'Dự Án',
         'nav.skills': 'Kỹ Năng',
         'nav.contact': 'Liên Hệ',
-        'hero.badge': 'Kỹ Sư Firmware Nhúng',
+        'hero.badge': 'Kỹ Sư Phần Mềm Nhúng',
         'hero.greeting': 'Xin chào, tôi là',
-        'hero.subtitle': 'Tôi xây dựng phần mềm để điều khiển phần cứng — từ hệ thống máy in công nghiệp đến thiết bị gia dụng thông minh.',
+        'hero.subtitle': 'Tôi xây dựng phần mềm để điều khiển phần cứng — từ hệ thống máy in công nghiệp đến thiết bị nhà bếp thông minh.',
         'hero.viewWork': 'Xem Dự Án',
         'hero.contactMe': 'Liên Hệ',
         'hero.statCompanies': 'Công Ty',
-        'hero.statProducts': 'Sản Phẩm Đã Xuất Xưởng',
+        'hero.statGPA': 'GPA / 4.0',
         'hero.statYears': 'Năm Kinh Nghiệm',
         'projects.title': 'Dự Án Tiêu Biểu',
         'projects.desc': 'Những sản phẩm thực tế tôi đã đóng góp — từ ý tưởng đến sản xuất hàng loạt.',
-        'projects.km.short': 'Phát triển firmware nhúng bằng C cho 3 dòng máy in công nghiệp, điều khiển chính xác hệ thống vận chuyển giấy, cấp mực và tạo hình ảnh.',
-        'projects.lg.short': 'Phát triển giao diện người dùng và firmware giao tiếp bo mạch cho dòng lò nướng LG, bao gồm single, double và combi (microwave+oven).',
+        'projects.km.short': 'Phát triển firmware nhúng bằng C cho máy in công nghiệp, điều khiển motor, roller, clutch, solenoid và đầu ra cao áp.',
+        'projects.lg.short': 'Phát triển UI nhúng cho thiết bị nhà bếp LG dùng Qt (lò nướng) và LVGL (máy pha cà phê), giao tiếp UART/SPI trên nền tảng Linux.',
         'projects.viewDetails': 'Xem Chi Tiết →',
         'skills.title': 'Kỹ Năng Chuyên Môn',
-        'skills.desc': 'Công cụ và công nghệ tôi sử dụng để xây dựng hệ thống nhúng đáng tin cậy.',
+        'skills.desc': 'C/C++, Hệ thống nhúng, Qt/LVGL, Linux và hơn thế nữa.',
         'skills.lang.title': 'Ngôn Ngữ Lập Trình',
-        'skills.fw.title': 'Firmware & RTOS',
-        'skills.tools.title': 'Công Cụ & Debug',
+        'skills.fw.title': 'HĐH & Middleware',
+        'skills.ui.title': 'Framework Giao Diện',
+        'skills.tools.title': 'Công Cụ & Nền Tảng',
         'skills.protocols.title': 'Giao Thức & Giao Tiếp',
         'skills.test.title': 'Kiểm Thử & Chất Lượng',
-        'skills.soft.title': 'Kỹ Năng Mềm',
         'contact.title': 'Liên Hệ',
         'contact.desc': 'Quan tâm đến hồ sơ của tôi? Hãy kết nối nhé.',
         'footer.name': 'Minh Đức',
@@ -85,10 +86,10 @@ const i18n = {
         'km.company': 'FPT Software',
         'km.role': 'Kỹ Sư Firmware Nhúng',
         'km.desc': 'Hệ thống in kỹ thuật số công nghiệp với các tính năng tự động hóa tiên tiến cho sản xuất in chuyên nghiệp.',
-        'lg.title': 'Dòng Lò Nướng LG',
+        'lg.title': 'UI Thiết Bị Nhà Bếp LG',
         'lg.company': 'LG Electronics (LGEDV)',
-        'lg.role': 'Kỹ Sư Firmware Nhúng',
-        'lg.desc': 'Dòng lò nướng cao cấp bao gồm các mẫu single, double và combi (microwave+oven).',
+        'lg.role': 'Kỹ Sư Nghiên Cứu',
+        'lg.desc': 'Phát triển UI nhúng cho thiết bị nhà bếp dùng Qt và LVGL trên Linux.'
         'detail.back': '← Quay lại Portfolio',
         'detail.overview': 'Tổng Quan Dự Án',
         'detail.responsibilities': 'Trách Nhiệm Của Tôi',
@@ -98,7 +99,8 @@ const i18n = {
         'detail.sidebar.period': 'Thời Gian',
         'detail.sidebar.team': 'Quy Mô Đội',
         'detail.sidebar.status': 'Trạng Thái',
-        'detail.sidebar.status.shipped': 'Đã Xuất Xưởng'
+        'detail.sidebar.status.shipped': 'Đã Xuất Xưởng',
+        'detail.sidebar.status.development': 'Đang Phát Triển'
     }
 };
 
@@ -123,6 +125,9 @@ function setLanguage(lang) {
     if (langLabel) {
         langLabel.textContent = lang === 'en' ? 'VI' : 'EN';
     }
+
+    // Update theme toggle icon based on lang (not needed but placeholder)
+}
 
     // Update HTML lang attribute
     document.documentElement.lang = lang;
@@ -206,6 +211,30 @@ if (langToggle) {
     langToggle.addEventListener('click', toggleLanguage);
 }
 
+/* ====== Theme Toggle ====== */
+let currentTheme = localStorage.getItem('theme') || 'dark';
+
+function setTheme(theme) {
+    currentTheme = theme;
+    localStorage.setItem('theme', theme);
+    document.documentElement.setAttribute('data-theme', theme);
+    
+    const themeIcon = document.querySelector('#themeToggle i');
+    if (themeIcon) {
+        themeIcon.className = theme === 'dark' ? 'fas fa-moon' : 'fas fa-sun';
+    }
+}
+
+function toggleTheme() {
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    setTheme(newTheme);
+}
+
+const themeToggle = document.getElementById('themeToggle');
+if (themeToggle) {
+    themeToggle.addEventListener('click', toggleTheme);
+}
+
 /* ====== Scroll to Top ====== */
 const scrollTop = document.getElementById('scrollTop');
 if (scrollTop) {
@@ -235,7 +264,8 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
-/* ====== Initialize Language on page load ====== */
+/* ====== Initialize on page load ====== */
 document.addEventListener('DOMContentLoaded', () => {
     setLanguage(currentLang);
+    setTheme(currentTheme);
 });
