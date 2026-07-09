@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Konica Minolta AccurioPress C5080/C5070 - Embedded Firmware Project Details">
+    <meta property="og:title" content="Konica Minolta AccurioPress C5080/C5070 | Portfolio">
+    <meta property="og:description" content="Embedded firmware development for industrial digital printing system">
+    <title>Konica Minolta AccurioPress C5080/C5070 | Portfolio</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- ====== Navigation ====== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="../index.html" class="nav-logo">&lt;Embedded<span class="accent">FW</span> /&gt;</a>
+            <div class="nav-links" id="navLinks">
+                <a href="../index.html#about" data-i18n="nav.about">About</a>
+                <a href="../index.html#projects" data-i18n="nav.projects">Projects</a>
+                <a href="../index.html#skills" data-i18n="nav.skills">Skills</a>
+                <a href="../index.html#contact" data-i18n="nav.contact">Contact</a>
+                <button class="lang-toggle" id="langToggle" title="Switch language / Chuyển ngôn ngữ">
+                    <span id="langLabel">VI</span>
+                </button>
+            </div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ====== Project Detail ====== -->
+    <section class="detail-page">
+        <div class="container">
+            <!-- Back Link -->
+            <a href="../index.html" class="detail-back" data-i18n="detail.back">← Back to Portfolio</a>
+
+            <!-- Header -->
+            <div class="detail-header">
+                <h1 class="detail-title" data-i18n="km.title">Konica Minolta AccurioPress C5080/C5070</h1>
+                <p class="detail-company" data-i18n="km.company">@ FPT Software</p>
+            </div>
+
+            <!-- Product Image -->
+            <img src="../assets/images/km-accuriopress-c5080.jpg"
+                 alt="Konica Minolta AccurioPress C5080/C5070"
+                 class="detail-image"
+                 onerror="this.style.display='none'; document.getElementById('kmPlaceholder').style.display='flex';">
+
+            <div class="detail-image-placeholder" id="kmPlaceholder" style="display:none;">
+                <i class="fas fa-print"></i>
+                <span data-i18n-placeholder="km.title" data-i18n="km.title">Konica Minolta AccurioPress C5080/C5070</span>
+            </div>
+
+            <!-- Content Grid -->
+            <div class="detail-grid">
+                <!-- Main Content -->
+                <div class="detail-content">
+                    <!-- English Content -->
+                    <div lang="en">
+                        <h2 data-i18n="detail.overview">Project Overview</h2>
+                        <p>
+                            The <strong>AccurioPress C5080/C5070</strong> is Konica Minolta's latest digital printing system
+                            (successor to the AccurioPress C4080 series), launched in January 2026. It is a high-speed,
+                            production-grade color digital press designed for commercial printing, in-plant, and
+                            print-for-pay environments.
+                        </p>
+                        <p>
+                            This industrial printer offers enhanced paper handling capabilities (up to 900mm long sheets),
+                            advanced automation with the Intelligent Quality Optimizer (IQ-601), automated media sensor
+                            for paper type/thickness detection, and seamless integration with Konica Minolta's
+                            AccurioPro software suite for streamlined print workflows.
+                        </p>
+
+                        <div class="highlight-box">
+                            <p><strong>Role:</strong> Embedded Firmware Developer (Contractor via FPT Software)</p>
+                            <p><strong>Team:</strong> Worked in a cross-cultural team with Japanese and Vietnamese engineers</p>
+                        </div>
+
+                        <h2 data-i18n="detail.responsibilities">My Responsibilities</h2>
+                        <ul>
+                            <li>
+                                <strong>Developed embedded firmware in C</strong> for 3 industrial printer models,
+                                implementing control logic for electromechanical components including motors, rollers,
+                                clutches, solenoids, and high-voltage outputs.
+                            </li>
+                            <li>
+                                <strong>Built and maintained core software modules</strong> for paper transport,
+                                toner supply, image formation, and system calibration — ensuring consistent print
+                                quality and stability across product lines.
+                            </li>
+                            <li>
+                                <strong>Wrote unit and integration tests</strong> using GoogleTest to verify module
+                                behavior against functional specifications, catching defects early in the development cycle.
+                            </li>
+                            <li>
+                                <strong>Debugged complex firmware issues</strong> through system log analysis and
+                                on-device testing, improving system reliability across release cycles.
+                            </li>
+                            <li>
+                                <strong>Collaborated with Japanese hardware and system engineers</strong> to integrate
+                                firmware with mechanical and electrical subsystems, ensuring smooth interoperability.
+                            </li>
+                            <li>
+                                <strong>Participated in code reviews</strong> and maintained documentation for
+                                firmware modules, contributing to knowledge sharing within the team.
+                            </li>
+                        </ul>
+
+                        <h2 data-i18n="detail.achievements">Key Achievements</h2>
+                        <ul>
+                            <li>Successfully delivered firmware for <strong>3 printer models</strong> that passed rigorous quality assurance and shipped to customers.</li>
+                            <li>Implemented <strong>automated calibration routines</strong> that reduced manual tuning time by improving first-pass yield.</li>
+                            <li>Contributed to <strong>system stability improvements</strong> through systematic root-cause analysis and targeted fixes.</li>
+                            <li>Developed <strong>reusable test frameworks</strong> using GoogleTest that improved regression testing efficiency.</li>
+                        </ul>
+
+                        <h2 data-i18n="detail.tech">Technologies Used</h2>
+                        <div class="skill-items" style="margin-bottom: 24px;">
+                            <span class="skill-tag">C</span>
+                            <span class="skill-tag">Embedded C</span>
+                            <span class="skill-tag">RTOS (FreeRTOS)</span>
+                            <span class="skill-tag">IAR EWARM</span>
+                            <span class="skill-tag">GoogleTest</span>
+                            <span class="skill-tag">JTAG/SWD Debug</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Oscilloscope</span>
+                            <span class="skill-tag">Logic Analyzer</span>
+                            <span class="skill-tag">I²C / SPI / UART</span>
+                            <span class="skill-tag">PWM / ADC</span>
+                            <span class="skill-tag">State Machine Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="detail-sidebar">
+                    <div class="detail-sidebar-card">
+                        <h3>Project Info</h3>
+                        <div class="info-row">
+                            <span class="label" data-i18n="detail.sidebar.role">Role</span>
+                            <span class="value" data-i18n="km.role">Embedded Firmware Engineer</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label" data-i18n="detail.sidebar.period">Period</span>
+                            <span class="value">2022 – 2025</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label" data-i18n="detail.sidebar.team">Team Size</span>
+                            <span class="value">10+</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label" data-i18n="detail.sidebar.status">Status</span>
+                            <span class="value" style="color: var(--success);" data-i18n="detail.sidebar.status.shipped">Shipped</span>
+                        </div>
+                    </div>
+
+                    <div class="detail-sidebar-card">
+                        <h3>Product Link</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 12px;">
+                            Official news release from Konica Minolta:
+                        </p>
+                        <a href="https://www.konicaminolta.com/jp-ja/newsroom/2025/1219-01-01.html"
+                           target="_blank" rel="noopener" style="font-size: 0.85rem; word-break: break-all;">
+                            Konica Minolta Newsroom →
+                        </a>
+                    </div>
+
+                    <div class="detail-sidebar-card">
+                        <h3>Key Features</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="padding-left: 0; margin-bottom: 8px; font-size: 0.85rem; color: var(--text-secondary);">
+                                ✔ Long paper support (up to 900mm)
+                            </li>
+                            <li style="padding-left: 0; margin-bottom: 8px; font-size: 0.85rem; color: var(--text-secondary);">
+                                ✔ Intelligent Quality Optimizer (IQ-601)
+                            </li>
+                            <li style="padding-left: 0; margin-bottom: 8px; font-size: 0.85rem; color: var(--text-secondary);">
+                                ✔ Automated media sensing
+                            </li>
+                            <li style="padding-left: 0; margin-bottom: 8px; font-size: 0.85rem; color: var(--text-secondary);">
+                                ✔ Envelope printing optimization
+                            </li>
+                            <li style="padding-left: 0; margin-bottom: 8px; font-size: 0.85rem; color: var(--text-secondary);">
+                                ✔ AccurioPro software integration
+                            </li>
+                            <li style="padding-left: 0; font-size: 0.85rem; color: var(--text-secondary);">
+                                ✔ High-speed color production printing
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== Footer ====== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 <span data-i18n="footer.name">Minh Duc</span>. <span data-i18n="footer.rights">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

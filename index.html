@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Embedded Firmware Engineer portfolio - Experience with Konica Minolta AccurioPress C5080/C5070 and LG Wall Ovens">
+    <meta name="keywords" content="Embedded Firmware, C Programming, Embedded Systems, Konica Minolta, LG, Industrial Printer, Wall Oven">
+    <meta property="og:title" content="My Work Experience | Embedded Firmware Portfolio">
+    <meta property="og:description" content="Embedded firmware engineer showcasing industrial printing and home appliance projects">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://minhduc21092001.github.io/My-work-experience">
+    <meta name="author" content="Minh Duc">
+    <title>My Work Experience | Embedded Firmware Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- ====== Navigation ====== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">&lt;Embedded<span class="accent">FW</span> /&gt;</a>
+            <div class="nav-links" id="navLinks">
+                <a href="#about" data-i18n="nav.about">About</a>
+                <a href="#projects" data-i18n="nav.projects">Projects</a>
+                <a href="#skills" data-i18n="nav.skills">Skills</a>
+                <a href="#contact" data-i18n="nav.contact">Contact</a>
+                <button class="lang-toggle" id="langToggle" title="Switch language / Chuyển ngôn ngữ">
+                    <span id="langLabel">VI</span>
+                </button>
+            </div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ====== Hero Section ====== -->
+    <section class="hero" id="about">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-badge" data-i18n="hero.badge">Embedded Firmware Engineer</p>
+                    <h1 class="hero-title" id="heroTitle">
+                        <span data-i18n="hero.greeting">Hi, I'm</span>
+                        <span class="accent">Minh Duc</span>
+                    </h1>
+                    <p class="hero-subtitle" data-i18n="hero.subtitle">
+                        I build the software that brings hardware to life — from industrial printing systems to smart home appliances.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary" data-i18n="hero.viewWork">View My Work</a>
+                        <a href="#contact" class="btn btn-outline" data-i18n="hero.contactMe">Contact Me</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">2</span>
+                            <span class="stat-label" data-i18n="hero.statCompanies">Companies</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">4+</span>
+                            <span class="stat-label" data-i18n="hero.statProducts">Products Shipped</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label" data-i18n="hero.statYears">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-window">
+                        <div class="code-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="code-title">firmware.c</span>
+                        </div>
+                        <div class="code-body">
+                            <pre><code><span class="keyword">void</span> <span class="func">system_init</span>() {
+    <span class="comment">// Initialize hardware</span>
+    <span class="func">motor_init</span>(&amp;paper_transport);
+    <span class="func">sensor_init</span>(&amp;temperature);
+    <span class="func">calibrate</span>(&amp;print_head);
+    <span class="func">enable_interrupts</span>();
+}</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== Projects Section ====== -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="projects.title">Featured Projects</h2>
+                <p class="section-desc" data-i18n="projects.desc">
+                    Real products I contributed to — from concept to mass production.
+                </p>
+            </div>
+
+            <div class="project-cards">
+                <!-- Project 1: Konica Minolta -->
+                <div class="project-card" onclick="location.href='projects/konicaminolta-accuriopress.html'">
+                    <div class="project-card-image">
+                        <img src="assets/images/km-accuriopress-c5080.jpg" alt="Konica Minolta AccurioPress C5080/C5070"
+                             onerror="this.src='assets/images/placeholder-km.jpg'; this.onerror=null;">
+                        <div class="project-card-tag">Industrial Printer</div>
+                    </div>
+                    <div class="project-card-body">
+                        <h3>Konica Minolta AccurioPress C5080/C5070</h3>
+                        <p class="project-card-company">@ FPT Software</p>
+                        <p data-i18n="projects.km.short">
+                            Developed embedded firmware in C for 3 industrial printer models, implementing precision control for paper transport, toner supply, and image formation systems.
+                        </p>
+                        <div class="project-card-tech">
+                            <span>C</span>
+                            <span>Embedded</span>
+                            <span>GoogleTest</span>
+                            <span>RTOS</span>
+                        </div>
+                        <a href="projects/konicaminolta-accuriopress.html" class="btn btn-sm" data-i18n="projects.viewDetails">View Details →</a>
+                    </div>
+                </div>
+
+                <!-- Project 2: LG Wall Oven -->
+                <div class="project-card" onclick="location.href='projects/lg-wall-oven.html'">
+                    <div class="project-card-image">
+                        <img src="assets/images/lg-wall-oven.jpg" alt="LG Wall Oven"
+                             onerror="this.src='assets/images/placeholder-lg.jpg'; this.onerror=null;">
+                        <div class="project-card-tag">Home Appliance</div>
+                    </div>
+                    <div class="project-card-body">
+                        <h3>LG Wall Oven Series</h3>
+                        <p class="project-card-company">@ LG Electronics (LGEDV)</p>
+                        <p data-i18n="projects.lg.short">
+                            Developed user interface and board communication firmware for LG wall oven product line, covering single, double, and combi (microwave+oven) models.
+                        </p>
+                        <div class="project-card-tech">
+                            <span>C</span>
+                            <span>Embedded</span>
+                            <span>UI Framework</span>
+                            <span>Board Comm</span>
+                        </div>
+                        <a href="projects/lg-wall-oven.html" class="btn btn-sm" data-i18n="projects.viewDetails">View Details →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== Skills Section ====== -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="skills.title">Technical Skills</h2>
+                <p class="section-desc" data-i18n="skills.desc">
+                    Tools and technologies I use to build reliable embedded systems.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-microchip"></i> <span data-i18n="skills.lang.title">Languages</span></h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Embedded C</span>
+                        <span class="skill-tag">Assembly</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-cogs"></i> <span data-i18n="skills.fw.title">Firmware &amp; RTOS</span></h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">FreeRTOS</span>
+                        <span class="skill-tag">Bare-metal</span>
+                        <span class="skill-tag">Interrupt-Driven</span>
+                        <span class="skill-tag">State Machines</span>
+                        <span class="skill-tag">Device Drivers</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> <span data-i18n="skills.tools.title">Tools &amp; Debug</span></h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">IAR EWARM</span>
+                        <span class="skill-tag">KEIL MDK</span>
+                        <span class="skill-tag">JTAG/SWD</span>
+                        <span class="skill-tag">Oscilloscope</span>
+                        <span class="skill-tag">Logic Analyzer</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-project-diagram"></i> <span data-i18n="skills.protocols.title">Protocols &amp; Interfaces</span></h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">I²C</span>
+                        <span class="skill-tag">SPI</span>
+                        <span class="skill-tag">UART</span>
+                        <span class="skill-tag">CAN</span>
+                        <span class="skill-tag">PWM</span>
+                        <span class="skill-tag">ADC/DAC</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-vial"></i> <span data-i18n="skills.test.title">Testing &amp; Quality</span></h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">GoogleTest</span>
+                        <span class="skill-tag">Unit Testing</span>
+                        <span class="skill-tag">Integration Testing</span>
+                        <span class="skill-tag">HIL Testing</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-users-cog"></i> <span data-i18n="skills.soft.title">Soft Skills</span></h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Cross-team Collaboration</span>
+                        <span class="skill-tag">Agile/Scrum</span>
+                        <span class="skill-tag">Technical Documentation</span>
+                        <span class="skill-tag">Code Review</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== Contact Section ====== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="contact.title">Get In Touch</h2>
+                <p class="section-desc" data-i18n="contact.desc">
+                    Interested in my background? Let's connect.
+                </p>
+            </div>
+
+            <div class="contact-links">
+                <a href="https://github.com/minhduc21092001" target="_blank" class="contact-item" rel="noopener">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com/in/minhduc21092001" target="_blank" class="contact-item" rel="noopener">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="mailto:minhduc21092001@gmail.com" class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== Footer ====== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 <span data-i18n="footer.name">Minh Duc</span>. <span data-i18n="footer.rights">All rights reserved.</span></p>
+            <p class="footer-built" data-i18n="footer.built">Built with HTML, CSS, JavaScript &hearts; Hosted on GitHub Pages</p>
+        </div>
+    </footer>
+
+    <!-- ====== Scroll to Top ====== -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- ====== Backdrop ====== -->
+    <div class="nav-backdrop" id="navBackdrop"></div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

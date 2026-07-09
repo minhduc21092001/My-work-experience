@@ -1,0 +1,26 @@
+# GitHub Pages configuration
+title: My Work Experience | Portfolio
+description: Embedded firmware engineer portfolio showcasing work on Konica Minolta AccurioPress C5080/C5070 and LG Wall Ovens.
+url: "https://minhduc21092001.github.io"
+baseurl: "/My-work-experience"
+theme: null
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+# Social
+author: "Minh Duc"
+social:
+  name: Minh Duc
+  links:
+    - https://github.com/minhduc21092001
+    - https://linkedin.com/in/minhduc21092001
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: null

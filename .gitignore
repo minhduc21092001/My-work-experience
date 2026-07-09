@@ -1,0 +1,12 @@
+# Service manuals and large PDFs
+*.pdf
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Editor files
+.vscode/settings.json
+*.swp
+*.swo
+*~
