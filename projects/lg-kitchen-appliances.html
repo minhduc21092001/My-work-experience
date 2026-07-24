@@ -17,16 +17,13 @@
     <!-- ====== Navigation ====== -->
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
-            <a href="../index.html" class="nav-logo">&lt;Embedded<span class="accent">FW</span> /&gt;</a>
+            <a href="../index.html" class="nav-logo">Embedded Software Engineer</a>
             <div class="nav-links" id="navLinks">
-                <a href="../index.html#about" data-i18n="nav.about">About</a>
-                <a href="../index.html#projects" data-i18n="nav.projects">Projects</a>
-                <a href="../index.html#skills" data-i18n="nav.skills">Skills</a>
-                <a href="../index.html#contact" data-i18n="nav.contact">Contact</a>
-                <button class="lang-toggle" id="langToggle" title="Switch language / Chuyển ngôn ngữ">
-                    <span id="langLabel">VI</span>
-                </button>
-                <button class="theme-toggle" id="themeToggle" title="Toggle theme / Chuyển giao diện">
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#projects">Projects</a>
+                <a href="../index.html#skills">Skills</a>
+                <a href="../index.html#contact">Contact</a>
+                <button class="theme-toggle" id="themeToggle" title="Toggle theme">
                     <i class="fas fa-moon"></i>
                 </button>
             </div>
@@ -40,12 +37,12 @@
     <section class="detail-page">
         <div class="container">
             <!-- Back Link -->
-            <a href="../index.html" class="detail-back" data-i18n="detail.back">← Back to Portfolio</a>
+            <a href="../index.html" class="detail-back">← Back to Portfolio</a>
 
             <!-- Header -->
             <div class="detail-header">
-                <h1 class="detail-title" data-i18n="lg.title">LG Kitchen Appliances UI</h1>
-                <p class="detail-company" data-i18n="lg.company">@ LG Electronics (LGEDV)</p>
+                <h1 class="detail-title">LG Kitchen Appliances UI</h1>
+                <p class="detail-company">@ LG Electronics (LGEDV)</p>
             </div>
 
             <!-- Product Image -->
@@ -56,15 +53,14 @@
 
             <div class="detail-image-placeholder" id="lgPlaceholder" style="display:none;">
                 <i class="fas fa-fire-burner"></i>
-                <span data-i18n-placeholder="lg.title" data-i18n="lg.title">LG Kitchen Appliances UI</span>
+                <span>LG Kitchen Appliances UI</span>
             </div>
 
             <!-- Content Grid -->
             <div class="detail-grid">
                 <!-- Main Content -->
                 <div class="detail-content">
-                    <!-- English Content -->
-                    <div class="lang-content" lang="en">
+                    <div>
                         <h2>Project Overview</h2>
                         <p>
                             As a <strong>Research Engineer</strong> at <strong>LGEDV (LG Electronics Development Vietnam)</strong>,
@@ -106,47 +102,7 @@
                         </div>
                     </div>
 
-                    <!-- Vietnamese Content -->
-                    <div class="lang-content" lang="vi" style="display:none;">
-                        <h2>Tổng Quan Dự Án</h2>
-                        <p>
-                            Là <strong>Kỹ Sư Nghiên Cứu</strong> tại <strong>LGEDV (Trung tâm Nghiên cứu & Phát triển LG Electronics Việt Nam)</strong>,
-                            tôi phát triển giao diện người dùng nhúng cho các thiết bị nhà bếp LG, bao gồm lò nướng và máy pha cà phê.
-                            Công việc tập trung vào tạo ra UI trực quan, phản hồi nhanh và đáp ứng tiêu chuẩn sản phẩm toàn cầu của LG.
-                        </p>
-                        <p>
-                            UI chạy trên nền tảng Linux nhúng, giao tiếp với bo mạch chính qua <strong>UART</strong>
-                            và với module Wi-Fi qua <strong>SPI</strong>, xử lý trao đổi dữ liệu hai chiều và điều khiển thiết bị theo thời gian thực.
-                        </p>
 
-                        <div class="highlight-box">
-                            <p><strong>Vai trò:</strong> Kỹ Sư Nghiên Cứu</p>
-                            <p><strong>Thời gian:</strong> Tháng 03/2026 – Nay</p>
-                            <p><strong>Quy mô đội:</strong> 4</p>
-                            <p><strong>Đội ngũ:</strong> Môi trường R&D toàn cầu với kỹ sư Hàn Quốc, Việt Nam và quốc tế</p>
-                        </div>
-
-                        <h2>Trách Nhiệm Của Tôi</h2>
-                        <ul>
-                            <li><strong>Phát triển UI nhúng dùng Qt</strong> cho màn hình lò nướng — menu điều hướng, chọn chế độ nấu, quản lý hẹn giờ/cài đặt, phản hồi trạng thái thời gian thực.</li>
-                            <li><strong>Phát triển UI nhúng dùng LVGL</strong> cho màn hình cảm ứng máy pha cà phê, tối ưu hoạt ảnh mượt mà trên phần cứng có tài nguyên hạn chế.</li>
-                            <li><strong>Triển khai giao tiếp</strong> giữa module hiển thị và các thành phần ngoại vi — UART với bo mạch chính, SPI với module Wi-Fi.</li>
-                            <li><strong>Đảm bảo UI phản hồi nhanh và hoạt ảnh mượt</strong> theo tiêu chuẩn thiết kế sản phẩm LG.</li>
-                            <li><strong>Xây dựng và kiểm thử phần mềm</strong> trên môi trường Linux, sử dụng cross-compilation toolchain và kiểm tra trên thiết bị thật.</li>
-                            <li><strong>Tạo tài liệu kỹ thuật</strong> bao gồm change list, design notes và test cases hỗ trợ QE và cộng tác nhóm.</li>
-                        </ul>
-
-                        <h2>Công Nghệ Sử Dụng</h2>
-                        <div class="skill-items" style="margin-bottom: 24px;">
-                            <span class="skill-tag">C/C++</span>
-                            <span class="skill-tag">Qt</span>
-                            <span class="skill-tag">LVGL</span>
-                            <span class="skill-tag">Linux</span>
-                            <span class="skill-tag">UART / SPI</span>
-                            <span class="skill-tag">Git / GitLab</span>
-                            <span class="skill-tag">Jira</span>
-                        </div>
-                    </div>
                 </div>
 
                 <!-- Sidebar -->
@@ -154,20 +110,20 @@
                     <div class="detail-sidebar-card">
                         <h3>Project Info</h3>
                         <div class="info-row">
-                            <span class="label" data-i18n="detail.sidebar.role">Role</span>
-                            <span class="value" data-i18n="lg.role">Research Engineer</span>
+                            <span class="label">Role</span>
+                            <span class="value">Research Engineer</span>
                         </div>
                         <div class="info-row">
-                            <span class="label" data-i18n="detail.sidebar.period">Period</span>
+                            <span class="label">Period</span>
                             <span class="value">03/2026 – Present</span>
                         </div>
                         <div class="info-row">
-                            <span class="label" data-i18n="detail.sidebar.team">Team Size</span>
+                            <span class="label">Team Size</span>
                             <span class="value">4</span>
                         </div>
                         <div class="info-row">
-                            <span class="label" data-i18n="detail.sidebar.status">Status</span>
-                            <span class="value" style="color: var(--success);" data-i18n="detail.sidebar.status.shipped">Shipped</span>
+                            <span class="label">Status</span>
+                            <span class="value" style="color: var(--success);">Shipped</span>
                         </div>
                     </div>
 
@@ -199,7 +155,7 @@
     <!-- ====== Footer ====== -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 <span data-i18n="footer.name">Minh Duc</span>. <span data-i18n="footer.rights">All rights reserved.</span></p>
+            <p>&copy; 2026 Minh Duc. All rights reserved.</p>
         </div>
     </footer>
 

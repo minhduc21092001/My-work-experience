@@ -1,0 +1,47 @@
+﻿Phung Minh Duc
+Embedded Software Engineer
+Phone: 0336671390
+Email: minhduc21092001@gmail.com
+Portfolio: https://minhduc21092001.github.io/My-portfolio/
+Address: Tay Ho District, Hanoi
+	  
+
+	
+
+PROFESSIONAL SUMMARY
+Embedded Software Engineer with 2.5+ years of experience delivering robust firmware for industrial printers and high-performance UI applications for consumer electronics. Proficient in C/C++, Linux-based development, and UI frameworks like Qt and LVGL. Driven by a passion for clean, solid code and system-level optimization, I’m seeking to leverage these technical skills to build reliable, high-impact embedded solutions that simplify complex system architectures.
+WORK EXPERIENCE
+LG Electronics Development Vietnam        03/2026 – Present
+Research Engineer
+* Developed embedded UI for kitchen appliances using Qt and LVGL, built and tested on Linux-based environments.
+* Implemented communication interfaces between the display module and other components — UART with the main board and SPI with the Wi-Fi module — handling data exchange.
+* Ensured UI responsiveness, smooth animations, and intuitive user interaction aligned with LG's product design standards.
+* Delivered clear technical documentation and test cases, enabling efficient QE workflows and improving collaboration across cross-functional teams.
+* Leveraged AI tools to develop automation solutions, significantly reducing task completion time and enhancing overall team productivity.
+
+
+FPT Software        10/2023 – 02/2026
+Embedded Software Engineer
+* Developed embedded firmware in C for industrial printers, implementing control logic for electromechanical components including motors, rollers, clutches, solenoids, and high-voltage outputs.
+* Built and maintained core software modules like paper transport, toner supply, image formation, and system calibration — ensuring consistent print quality and stability across product lines.
+* Implemented comprehensive unit tests (using gTest) and integration tests to validate machine behavior against functional specifications, ensuring early defect detection and high code reliability.
+* Debugged complex firmware issues through system log analysis and on-device testing, improving system reliability across release cycles.
+SKILLS
+* Programming Languages: C/C++ (OOP, STL, multithreading), Python
+* Operating System: FreeRTOS, Linux (thread, process, IPC, shell scripting)
+* Frameworks & Libraries: Qt, LVGL, gTest
+* Development & Build Tools: VSCode, Visual Studio, VirtualBox, CMake
+* Version Control & Project Management: Git, GitLab, Jira
+* AI-Powered Development Tools: Github Copilot, Claude Code
+EDUCATION
+Hanoi University of Science and Technology        09/2019 – 05/2024
+Control Engineering and Automation
+CPA: 3.74/4.0
+
+
+
+
+CERTIFICATIONS
+TOEIC (945/990) – IIG Vietnam        10/2025
+C++ – Udacity        12/2024
+Programming for Data Science with Python – Udacity        08/2024

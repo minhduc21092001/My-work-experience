@@ -100,7 +100,6 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .nav-logo:hover { color: var(--text-primary); }
-.nav-logo .accent { color: var(--accent); }
 
 .nav-links {
     display: flex;
@@ -130,26 +129,6 @@ img { max-width: 100%; height: auto; display: block; }
 
 .nav-links a:hover { color: var(--text-primary); }
 .nav-links a:hover::after { width: 100%; }
-
-.lang-toggle {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    color: var(--text-primary);
-    padding: 6px 14px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-family: var(--font-mono);
-    font-size: 0.8rem;
-    font-weight: 600;
-    transition: all var(--transition);
-    letter-spacing: 1px;
-}
-
-.lang-toggle:hover {
-    background: var(--accent);
-    border-color: var(--accent);
-    box-shadow: 0 0 20px var(--accent-glow);
-}
 
 /* ====== Theme Toggle ====== */
 .theme-toggle {

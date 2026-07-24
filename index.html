@@ -21,16 +21,13 @@
     <!-- ====== Navigation ====== -->
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
-            <a href="#" class="nav-logo">&lt;Embedded<span class="accent">FW</span> /&gt;</a>
+            <a href="#" class="nav-logo">Embedded Software Engineer</a>
             <div class="nav-links" id="navLinks">
-                <a href="#about" data-i18n="nav.about">About</a>
-                <a href="#projects" data-i18n="nav.projects">Projects</a>
-                <a href="#skills" data-i18n="nav.skills">Skills</a>
-                <a href="#contact" data-i18n="nav.contact">Contact</a>
-                <button class="lang-toggle" id="langToggle" title="Switch language / Chuyển ngôn ngữ">
-                    <span id="langLabel">VI</span>
-                </button>
-                <button class="theme-toggle" id="themeToggle" title="Toggle theme / Chuyển giao diện">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+                <button class="theme-toggle" id="themeToggle" title="Toggle theme">
                     <i class="fas fa-moon"></i>
                 </button>
             </div>
@@ -45,30 +42,30 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <p class="hero-badge" data-i18n="hero.badge">Embedded Software Engineer</p>
+                    <p class="hero-badge">Embedded Software Engineer</p>
                     <h1 class="hero-title" id="heroTitle">
-                        <span data-i18n="hero.greeting">Hi, I'm</span>
+                        <span>Hi, I'm</span>
                         <span class="accent">Minh Duc</span>
                     </h1>
-                    <p class="hero-subtitle" data-i18n="hero.subtitle">
+                    <p class="hero-subtitle">
                         Hands-on experience in embedded firmware, UI development (Qt, LVGL), and Linux — from industrial printers to smart kitchen appliances.
                     </p>
                     <div class="hero-cta">
-                        <a href="#projects" class="btn btn-primary" data-i18n="hero.viewWork">View My Work</a>
-                        <a href="#contact" class="btn btn-outline" data-i18n="hero.contactMe">Contact Me</a>
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
                     </div>
                     <div class="hero-stats">
                         <div class="stat">
                             <span class="stat-number">2</span>
-                            <span class="stat-label" data-i18n="hero.statCompanies">Companies</span>
+                            <span class="stat-label">Companies</span>
                         </div>
                         <div class="stat">
                             <span class="stat-number">2.5+</span>
-                            <span class="stat-label" data-i18n="hero.statYears">Years Experience</span>
+                            <span class="stat-label">Years Experience</span>
                         </div>
                         <div class="stat">
                             <span class="stat-number">3.74</span>
-                            <span class="stat-label" data-i18n="hero.statGPA">GPA / 4.0</span>
+                            <span class="stat-label">GPA / 4.0</span>
                         </div>
                     </div>
                 </div>
@@ -99,8 +96,8 @@
     <section class="projects" id="projects">
         <div class="container">
             <div class="section-header">
-                <h2 data-i18n="projects.title">Featured Projects</h2>
-                <p class="section-desc" data-i18n="projects.desc">
+                <h2>Featured Projects</h2>
+                <p class="section-desc">
                     Real products I contributed to — from concept to mass production.
                 </p>
             </div>
@@ -116,7 +113,7 @@
                     <div class="project-card-body">
                         <h3>Konica Minolta AccurioPress C5080/C5070</h3>
                         <p class="project-card-company">@ FPT Software</p>
-                        <p data-i18n="projects.km.short">
+                        <p>
                             Developed embedded firmware in C for 3 industrial printer models, implementing precision control for paper transport, toner supply, and image formation systems.
                         </p>
                         <div class="project-card-tech">
@@ -125,7 +122,7 @@
                             <span>GoogleTest</span>
                             <span>Git/GitLab</span>
                         </div>
-                        <a href="projects/konicaminolta-accuriopress.html" class="btn btn-sm" data-i18n="projects.viewDetails">View Details →</a>
+                        <a href="projects/konicaminolta-accuriopress.html" class="btn btn-sm">View Details →</a>
                     </div>
                 </div>
 
@@ -139,7 +136,7 @@
                     <div class="project-card-body">
                         <h3>LG Kitchen Appliances UI</h3>
                         <p class="project-card-company">@ LG Electronics (LGEDV)</p>
-                        <p data-i18n="projects.lg.short">
+                        <p>
                             Developed embedded UI for kitchen appliances using Qt (oven) and LVGL (coffee machine), with UART/SPI communication interfaces on Linux-based platforms.
                         </p>
                         <div class="project-card-tech">
@@ -150,7 +147,7 @@
                             <span>UART/SPI</span>
                             <span>Git/GitLab</span>
                         </div>
-                        <a href="projects/lg-kitchen-appliances.html" class="btn btn-sm" data-i18n="projects.viewDetails">View Details →</a>
+                        <a href="projects/lg-kitchen-appliances.html" class="btn btn-sm">View Details →</a>
                     </div>
                 </div>
             </div>
@@ -161,71 +158,64 @@
     <section class="skills" id="skills">
         <div class="container">
             <div class="section-header">
-                <h2 data-i18n="skills.title">Technical Skills</h2>
-                <p class="section-desc" data-i18n="skills.desc">
+                <h2>Technical Skills</h2>
+                <p class="section-desc">
                     C/C++, Qt, LVGL, FreeRTOS, Linux, and more.
                 </p>
             </div>
 
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3><i class="fas fa-microchip"></i> <span data-i18n="skills.lang.title">Languages</span></h3>
+                    <h3><i class="fas fa-microchip"></i> Programming Languages</h3>
                     <div class="skill-items">
                         <span class="skill-tag">C</span>
-                        <span class="skill-tag">C++ (OOP, STL)</span>
+                        <span class="skill-tag">C++ (OOP, STL, Multithreading)</span>
                         <span class="skill-tag">Python</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3><i class="fas fa-cogs"></i> <span data-i18n="skills.fw.title">OS &amp; Middleware</span></h3>
+                    <h3><i class="fas fa-cogs"></i> Operating System</h3>
                     <div class="skill-items">
                         <span class="skill-tag">FreeRTOS</span>
-                        <span class="skill-tag">Linux</span>
-                        <span class="skill-tag">Multithreading</span>
-                        <span class="skill-tag">IPC</span>
+                        <span class="skill-tag">Linux (Thread, Process, IPC)</span>
                         <span class="skill-tag">Shell Scripting</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3><i class="fas fa-paint-brush"></i> <span data-i18n="skills.ui.title">UI Frameworks</span></h3>
+                    <h3><i class="fas fa-paint-brush"></i> Frameworks &amp; Libraries</h3>
                     <div class="skill-items">
                         <span class="skill-tag">Qt</span>
                         <span class="skill-tag">LVGL</span>
+                        <span class="skill-tag">gTest</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3><i class="fas fa-project-diagram"></i> <span data-i18n="skills.protocols.title">Protocols &amp; Interfaces</span></h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">UART</span>
-                        <span class="skill-tag">SPI</span>
-                        <span class="skill-tag">I²C</span>
-                        <span class="skill-tag">GPIO</span>
-                        <span class="skill-tag">PWM</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-vial"></i> <span data-i18n="skills.test.title">Testing &amp; Quality</span></h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">GoogleTest</span>
-                        <span class="skill-tag">Unit Testing</span>
-                        <span class="skill-tag">Integration Testing</span>
-                        <span class="skill-tag">Fortify (SAST)</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-tools"></i> <span data-i18n="skills.tools.title">Tools &amp; Platforms</span></h3>
+                    <h3><i class="fas fa-tools"></i> Development &amp; Build Tools</h3>
                     <div class="skill-items">
                         <span class="skill-tag">CMake</span>
                         <span class="skill-tag">VS Code</span>
                         <span class="skill-tag">Visual Studio</span>
-                        <span class="skill-tag">Git / GitLab</span>
-                        <span class="skill-tag">Jira</span>
                         <span class="skill-tag">VirtualBox</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-code-branch"></i> Version Control &amp; Project Management</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitLab</span>
+                        <span class="skill-tag">Jira</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-robot"></i> AI-Powered Development Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">GitHub Copilot</span>
+                        <span class="skill-tag">Claude Code</span>
                     </div>
                 </div>
             </div>
@@ -236,14 +226,15 @@
     <section class="contact" id="contact">
         <div class="container">
             <div class="section-header">
-                <h2 data-i18n="contact.title">Get In Touch</h2>
-                <p class="section-desc" data-i18n="contact.desc">
+                <h2>Get In Touch</h2>
+                <p class="section-desc">
                     Interested in my background? Let's connect.
                 </p>
             </div>
 
             <div class="contact-info">
                 <p><i class="fas fa-phone"></i> 0336 671 390</p>
+                <p><i class="fas fa-envelope"></i> minhduc21092001@gmail.com</p>
                 <p><i class="fas fa-map-marker-alt"></i> Tay Ho District, Hanoi</p>
             </div>
             <div class="contact-links">
@@ -255,10 +246,6 @@
                     <i class="fab fa-linkedin"></i>
                     <span>LinkedIn</span>
                 </a>
-                <a href="mailto:minhduc21092001@gmail.com" class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <span>Email</span>
-                </a>
             </div>
         </div>
     </section>
@@ -266,8 +253,8 @@
     <!-- ====== Footer ====== -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 <span data-i18n="footer.name">Minh Duc</span>. <span data-i18n="footer.rights">All rights reserved.</span></p>
-            <p class="footer-built" data-i18n="footer.built">Built with HTML, CSS, JavaScript &hearts; Hosted on GitHub Pages</p>
+            <p>&copy; 2026 Minh Duc. All rights reserved.</p>
+            <p class="footer-built">Built with HTML, CSS, JavaScript &hearts; Hosted on GitHub Pages</p>
         </div>
     </footer>
 
